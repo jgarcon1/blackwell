@@ -1,0 +1,41 @@
+---
+layout: none
+---
+{
+  "@context": "http://iiif.io/api/image/2/context.json",
+  "@id": "{{ '/' | absolute_url }}img/derivatives/iiif/images/blackwell_s3C_007_blackwell_s3C_007a",
+  "protocol": "http://iiif.io/api/image",
+  "width": 4728,
+  "height": 6144,
+  "sizes": [
+    {
+      "width": 4728,
+      "height": 6144
+    },
+    {
+      "width": 250,
+      "height": 325
+    }
+  ],
+  "profile": [
+    "http://iiif.io/api/image/2/level0.json",
+    {
+      "supports": [
+        "cors",
+        "sizeByWhListed",
+        "baseUriRedirect"
+      ]
+    }
+  ],
+  "tiles": [
+    {
+      "width": 512,
+      "scaleFactors": [
+        1,
+        2,
+        4,
+        8
+      ]
+    }
+  ]
+}

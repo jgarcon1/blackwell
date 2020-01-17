@@ -1,0 +1,22 @@
+---
+layout: none
+---
+{
+  "@type": "oa:Annotation",
+  "@id": "{{ '/' | absolute_url }}img/derivatives/iiif/annotation/blackwell_s3C_007_blackwell_s3C_007a.json",
+  "motivation": "sc:painting",
+  "resource": {
+    "@id": "{{ '/' | absolute_url }}img/derivatives/iiif/images/blackwell_s3C_007_blackwell_s3C_007a/full/full/0/default.jpg",
+    "@type": "dcterms:Image",
+    "format": "image/jpeg",
+    "service": {
+      "@context": "http://iiif.io/api/image/2/context.json",
+      "@id": "{{ '/' | absolute_url }}img/derivatives/iiif/images/blackwell_s3C_007_blackwell_s3C_007a",
+      "profile": "http://iiif.io/api/image/2/level0.json"
+    },
+    "width": 4728,
+    "height": 6144
+  },
+  "on": "{{ '/' | absolute_url }}img/derivatives/iiif/canvas/blackwell_s3C_007_blackwell_s3C_007a.json",
+  "@context": "http://iiif.io/api/presentation/2/context.json"
+}

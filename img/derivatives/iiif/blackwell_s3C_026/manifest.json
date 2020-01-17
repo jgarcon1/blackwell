@@ -1,0 +1,49 @@
+---
+layout: none
+---
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "{{ '/' | absolute_url }}img/derivatives/iiif/blackwell_s3C_026/manifest.json",
+  "@type": "sc:Manifest",
+  "label": "blackwell_s3C_026",
+  "thumbnail": "{{ '/' | absolute_url }}img/derivatives/iiif/images/blackwell_s3C_026/full/250,/0/default.jpg",
+  "viewingDirection": "left-to-right",
+  "viewingHint": "individuals",
+  "sequences": [
+    {
+      "@id": "{{ '/' | absolute_url }}img/derivatives/iiif/sequence/blackwell_s3C_026.json",
+      "@type": "sc:Sequence",
+      "canvases": [
+        {
+          "@type": "sc:Canvas",
+          "@id": "{{ '/' | absolute_url }}img/derivatives/iiif/canvas/blackwell_s3C_026.json",
+          "label": "front",
+          "width": 4932,
+          "height": 4716,
+          "thumbnail": "{{ '/' | absolute_url }}img/derivatives/iiif/images/blackwell_s3C_026/full/250,/0/default.jpg",
+          "images": [
+            {
+              "@type": "oa:Annotation",
+              "@id": "{{ '/' | absolute_url }}img/derivatives/iiif/annotation/blackwell_s3C_026.json",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "{{ '/' | absolute_url }}img/derivatives/iiif/images/blackwell_s3C_026/full/full/0/default.jpg",
+                "@type": "dcterms:Image",
+                "format": "image/jpeg",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "{{ '/' | absolute_url }}img/derivatives/iiif/images/blackwell_s3C_026",
+                  "profile": "http://iiif.io/api/image/2/level0.json"
+                },
+                "width": 4932,
+                "height": 4716
+              },
+              "on": "{{ '/' | absolute_url }}img/derivatives/iiif/canvas/blackwell_s3C_026.json"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "full": "{{ '/' | absolute_url }}img/derivatives/iiif/images/blackwell_s3C_026/full/full/0/default.jpg"
+}
