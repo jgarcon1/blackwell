@@ -112,8 +112,8 @@ menu:
     sub:
       - label: 'Re/Member Black Philadelphia'
         link: '/about/'
-      - label: 'Multimodal Website'
-        link: 'https://pmtest.pennds.org'
+#      - label: 'Multimodal Website'
+#        link: 'https://pmtest.pennds.org'
       - label: 'Project Leads'
         link: '/credits/'
 # - label: 'Exhibits'
